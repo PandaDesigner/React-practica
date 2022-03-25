@@ -30,7 +30,7 @@ const ListadoPasiente = ({pacientes, setPaciente, eliminarPaciente}) => {
       ):(
           <>
       <h2 className="font-black text-3xl text-center">
-        No Hay pacientes
+        No Hay Pacientes
       </h2>
       <p className="text-xl mt-5 mb-10 text-center">
         Agrega tus pacientes y {" "}
