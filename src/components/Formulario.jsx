@@ -3,6 +3,7 @@ import { Error } from './Error';
 
 
 
+
 export const Formulario = ({pacientes, setPacientes, paciente, setPaciente}) => {
   const [nombre, setNombre] = useState("");
   const [propietario, setPropietario] = useState("");
@@ -88,7 +89,7 @@ if(Object.keys(paciente).length > 0 ){
        <form
        onSubmit ={handleSubmit}
        action=""
-       className="bg-white shadow-md rounded-xl py-10 px-5">
+       className="glass rounded-xl py-10 px-5">
          {error && <Error> <p>Todos los campos son Obligarorios </p></Error> }
          <div className="mb-5">
            <label htmlFor="nombre"
