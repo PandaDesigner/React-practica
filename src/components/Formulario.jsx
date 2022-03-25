@@ -80,7 +80,7 @@ if(Object.keys(paciente).length > 0 ){
 
   return (
       <div className="md:w-1/2 lg:w-2/5 mx-5 mb-5">
-       <h2 className="font-black text-3xl text-center">Segimiento pasiente</h2>
+       <h2 className="font-black text-3xl text-center">Segimiento paciente</h2>
        <p className="text-center  text-lg mt-5 mb-10">
          Añadir Paciente y {" "}
          <span className="text-indigo-600 font-bold">Administralo</span>

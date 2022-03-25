@@ -7,7 +7,7 @@ const ListadoPasiente = ({pacientes, setPaciente, eliminarPaciente}) => {
     <div className="md:w-1/2 lg:w-3/5 md:h-screen overflow-y-scroll">
       {pacientes && pacientes.length ?(
         <>
-          <h2 className="font-black text-3xl text-center">Listado Pasiente
+          <h2 className="font-black text-3xl text-center">Listado Paciente
           </h2>
           <p className="text-xl mt-2 mb-2 text-center">
             Administra tus {" "}
